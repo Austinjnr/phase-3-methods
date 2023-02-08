@@ -7,6 +7,8 @@ function greetProgrammer() {
   console.log("Hello, programmer!");
 }
 
+
+
 /*
   You should be able to call this function with one argument and see its output in the terminal:
   greet("Naureen");
@@ -28,6 +30,7 @@ function greet(name) {
 function greetWithDefault(name = "programmer") {
   console.log(`Hello, ${name}!`);
 }
+
 
 /*
   You should be able to call this function with two arguments and get back its return value:
@@ -54,3 +57,4 @@ function halve(number) {
 
   return number / 2;
 }
+ 
